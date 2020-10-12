@@ -10,13 +10,13 @@
         android:id="@+id/msgTreino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tela 01"
-        android:textColor="#EF0505"
-        android:textSize="30dp"
+        android:text="Click the button to see"
+        android:textColor="#000000"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/botao_C"
         app:layout_constraintVertical_bias="0.174" />
 
     <Button
@@ -33,27 +33,27 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botao_A"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
         android:text="A"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintEnd_toStartOf="@+id/botao_B"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botao_B"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
         android:text="B"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintEnd_toStartOf="@+id/botao_C"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/botao_C"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -61,51 +61,54 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/botao_D"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:text="d"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/botao_C"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/botao_E"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:text="E"
-        app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/botao_D"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:textColor="#000000"
+        android:id="@+id/text_segunda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:layout_marginEnd="8dp"
         android:text="Segunda"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintEnd_toStartOf="@+id/text_terca"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:textColor="#000000"
+        android:id="@+id/text_terca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:layout_marginEnd="8dp"
         android:text="Terça"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintEnd_toStartOf="@+id/text_quarta"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:textColor="#000000"
+        android:id="@+id/text_quarta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
@@ -114,41 +117,45 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:textColor="#000000"
+        android:id="@+id/text_quinta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="41dp"
         android:text="Quinta"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/text_quarta"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:textColor="#000000"
+        android:id="@+id/text_sexta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="41dp"
         android:text="Sexta"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/text_quinta"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:textColor="#000000"
+        android:id="@+id/text_sabado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="41dp"
         android:text="Sábado"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/text_sexta"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:textColor="#000000"
+        android:id="@+id/text_principal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Treino Semanal"
@@ -161,34 +168,35 @@
         app:layout_constraintVertical_bias="0.167" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:textColor="#000000"
+        android:id="@+id/text_domingo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:text="Domingo"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintEnd_toStartOf="@+id/text_segunda"
+        app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/botao_domingo"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
         android:text="---"
-        app:layout_constraintEnd_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintEnd_toStartOf="@+id/botao_A"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/botao_X"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:text="x"
-        app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/botao_E"
+        app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
