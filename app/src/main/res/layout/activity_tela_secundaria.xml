@@ -10,9 +10,9 @@
         android:id="@+id/msgTreino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click the button to see"
+        android:text="@string/mstreino"
         android:textColor="#000000"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +21,10 @@
 
     <Button
         android:id="@+id/botaoVoltar"
-        android:layout_width="60dp"
+        android:layout_width="70dp"
         android:layout_height="40dp"
-        android:text="Voltar"
-        android:textSize="9dp"
+        android:text="@string/voltar"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
-        android:text="A"
+        android:text="@string/a"
         app:layout_constraintEnd_toStartOf="@+id/botao_B"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
-        android:text="B"
+        android:text="@string/b"
         app:layout_constraintEnd_toStartOf="@+id/botao_C"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
@@ -57,7 +57,7 @@
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="C"
+        android:text="@string/c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:text="d"
+        android:text="@string/d"
         app:layout_constraintStart_toEndOf="@+id/botao_C"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:text="E"
+        android:text="@string/e"
         app:layout_constraintStart_toEndOf="@+id/botao_D"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:layout_marginEnd="8dp"
-        android:text="Segunda"
+        android:text="@string/segunda"
         app:layout_constraintEnd_toStartOf="@+id/text_terca"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -102,7 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
         android:layout_marginEnd="8dp"
-        android:text="Terça"
+        android:text="@string/ter_a"
         app:layout_constraintEnd_toStartOf="@+id/text_quarta"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -112,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
-        android:text="Quarta"
+        android:text="@string/quarta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="41dp"
-        android:text="Quinta"
+        android:text="@string/quinta"
         app:layout_constraintStart_toEndOf="@+id/text_quarta"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -138,7 +138,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="41dp"
-        android:text="Sexta"
+        android:text="@string/sexta"
         app:layout_constraintStart_toEndOf="@+id/text_quinta"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -149,7 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="41dp"
-        android:text="Sábado"
+        android:text="@string/s_bado"
         app:layout_constraintStart_toEndOf="@+id/text_sexta"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -158,8 +158,8 @@
         android:id="@+id/text_principal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Treino Semanal"
-        android:textSize="25dp"
+        android:text="@string/treino_semanal"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
@@ -174,7 +174,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
-        android:text="Domingo"
+        android:text="@string/domingo"
         app:layout_constraintEnd_toStartOf="@+id/text_segunda"
         app:layout_constraintTop_toBottomOf="@+id/text_principal" />
 
@@ -184,7 +184,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
-        android:text="---"
+        android:text="@string/Vazio"
         app:layout_constraintEnd_toStartOf="@+id/botao_A"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 
@@ -194,7 +194,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:text="x"
+        android:text="@string/x"
         app:layout_constraintStart_toEndOf="@+id/botao_E"
         app:layout_constraintTop_toBottomOf="@+id/text_quarta" />
 

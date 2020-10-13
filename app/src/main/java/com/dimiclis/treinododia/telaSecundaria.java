@@ -2,20 +2,27 @@ package com.dimiclis.treinododia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class telaSecundaria extends AppCompatActivity {
-    private Button botaoVoltar, botao_A, botao_B, botao_C, botao_D, botao_E, botao_domingo, botao_X;
+    public Button botao_A;
+    public Button botao_B;
+    public Button botao_C;
+    public Button botao_D;
+    public Button botao_E;
+    public Button botao_domingo;
+    public Button botao_X;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_secundaria);
 
 
-        botaoVoltar = (Button) findViewById(R.id.botaoVoltar);
+        Button botaoVoltar = (Button) findViewById(R.id.botaoVoltar);
         botao_A = (Button) findViewById(R.id.botao_A);
         botao_B = (Button) findViewById(R.id.botao_B);
         botao_C = (Button) findViewById(R.id.botao_C);
@@ -32,6 +39,7 @@ public class telaSecundaria extends AppCompatActivity {
         });
 
         botao_domingo.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -40,6 +48,7 @@ public class telaSecundaria extends AppCompatActivity {
         });
 
         botao_A.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -47,6 +56,7 @@ public class telaSecundaria extends AppCompatActivity {
             }
         });
         botao_B.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -54,6 +64,7 @@ public class telaSecundaria extends AppCompatActivity {
             }
         });
         botao_C.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -61,6 +72,7 @@ public class telaSecundaria extends AppCompatActivity {
             }
         });
         botao_D.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -68,6 +80,7 @@ public class telaSecundaria extends AppCompatActivity {
             }
         });
         botao_E.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);
@@ -75,6 +88,7 @@ public class telaSecundaria extends AppCompatActivity {
             }
         });
         botao_X.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 TextView texto = findViewById(R.id.msgTreino);

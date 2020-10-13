@@ -2,4 +2,23 @@
     <string name="app_name">Treino</string>
     <string name="botao1">Ficha de treino</string>
     <string name="botao2">Alimentação</string>
+    <string name="mstreino">Click the button to see</string>
+    <string name="a">A</string>
+    <string name="voltar">Voltar</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">d</string>
+    <string name="e">E</string>
+    <string name="segunda">Segunda</string>
+    <string name="ter_a">Terça</string>
+    <string name="quarta">Quarta</string>
+    <string name="quinta">Quinta</string>
+    <string name="sexta">Sexta</string>
+    <string name="s_bado">Sábado</string>
+    <string name="treino_semanal">Treino Semanal</string>
+    <string name="domingo">Domingo</string>
+    <string name="Vazio">---</string>
+    <string name="x">x</string>
+    <string name="tela_02">Tela 02</string>
+    <string name="menu_de_op_es">Menu de Opções</string>
 </resources>
