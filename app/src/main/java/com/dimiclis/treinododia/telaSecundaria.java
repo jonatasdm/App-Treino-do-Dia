@@ -95,6 +95,8 @@ public class telaSecundaria extends AppCompatActivity {
                 texto.setText("Treinar Grupamento que deseja melhorar");
             }
         });
+
+
     }
 
 }
